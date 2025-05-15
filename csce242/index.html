@@ -2,36 +2,58 @@
 <html lang="eng">
     <head>
         <title>My Main Page</title>
+         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <h1>Main Page</h1>
-            <h3> Evelyn Monteros-Vaca</h3>
-            <h3>Summer CSCE 242</h3>
+        <div id="head">
+            <header>
+                <h1>Main Page</h1>
+                <h3> Evelyn Monteros-Vaca</h3>
+                <h3>Summer CSCE 242</h3>
 
-            <p>
-                This course is designed for students to explore the fundamentals of web development 
-                by utilizing HTML and CSS to create an engaging front-end design for a website. Students 
-                will learn how to structure web pages with HTML and enhance their visual appeal using 
-                CSS styles. Additionally, the course will introduce JavaScript, empowering students to 
-                implement interactive features and functionalities that enhance user experience on their 
-                websites. This comprehensive approach will equip students with the essential skills needed 
-                to build dynamic and visually appealing web applications.
-            </p>
-        </header>
-
+                <p>
+                    This course is designed for students to explore the fundamentals of web development 
+                    by utilizing HTML and CSS to create an engaging front-end design for a website. Students 
+                    will learn how to structure web pages with HTML and enhance their visual appeal using 
+                    CSS styles. Additionally, the course will introduce JavaScript, empowering students to 
+                    implement interactive features and functionalities that enhance user experience on their 
+                    websites. This comprehensive approach will equip students with the essential skills needed 
+                    to build dynamic and visually appealing web applications.
+                </p>
+            </header>
+        </div>
         
+        <div id="main-content">
+            <main>
+                <h2>Assignments</h2>
+            
+                <section id="list">
+                    <ol>
+                        <li class="name">
+                            <a href="assignments/assignment01/index.html">Mythological Creatures</a>
+                        </li>
+                            <ul>
+                                <li> An engaging and informative website dedicated to the fascinating world of mythical creatures, featuring detailed descriptions of their enchanting appearances and extraordinary abilities. Explore the rich lore surrounding each creature, from their mesmerizing physical traits to the unique powers they possess, each crafted to captivate the imagination and spark curiosity.        
+                                </li>
+                            </ul>
+                        <li class="name">
+                            <a href="assignments/assignment02/index.html">Why Adults Should Have Mandatory Nap Times</a>
+                        </li>
+                            <ul>
+                                <li>
+                                    Are you curious about the benefits of taking naps as an adult? This informative website explores the numerous advantages of incorporating short periods of rest into your daily routine. From enhancing productivity and improving mood to boosting cognitive function and overall well-being, discover why napping can be a valuable addition to your lifestyle.
+                            </li>
+                            </ul>
+                    </ol>
+                </section>
+            </main>
+        </div>
 
-        <main>
-            <h2>Assignments</h2>
-            <ol>
-                <li>
-                    <a href="assignments/assignment01/index.html"> Mythological Creatures</a>
-                </li>
-            </ol>
-
-
-        </main>
+        <div id="foot">
+            <footer>
+                <p>&copy; evelynmv.giithub.io</p>
+            </footer>
+        </div>
 
     </body>
 </html>

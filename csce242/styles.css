@@ -1,0 +1,48 @@
+/* Structure */
+body{
+    background-color: #BEE7E8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+#head,
+#foot{
+    background-color:#7D8CC4;
+    padding: 10px;
+    margin: 10px;
+}
+
+#main-content{
+    background-color: #8ac3cd;
+    padding: 5px;
+    margin: 10px;
+}
+
+#foot{
+    text-align: center;
+}
+
+/* Link */
+#list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.name{
+    background-color: #7D8CC4;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Typography */
+h1{
+    font-family:cursive;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+

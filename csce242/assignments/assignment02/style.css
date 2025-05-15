@@ -1,0 +1,99 @@
+/* Structure */
+body{
+    background:url(images/wallpaper.jpg);
+}
+
+header,
+footer{
+    background-color: rgb(144, 188, 188);
+    padding: 5px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+#main-div{
+    background-color: rgb(82, 106, 167);
+    padding: 5px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+main{
+    background-color: rgb(144, 188, 188);
+    padding: 10px;
+    margin: 20px;
+}
+
+#nap img{
+    margin: 10px;
+}
+
+#nap{
+    text-align: center;
+}
+
+.im{
+   display: block;
+   margin: auto;
+   width: 50%;
+}
+
+img{
+    border: 5px solid rgb(82, 106, 167);
+}
+
+/* Navegation */
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color:aliceblue;
+    background-color:rgb(82, 106, 167);
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+nav a:hover{
+    background-color:rgb(115, 128, 167);
+    color: rgb(179, 215, 219);
+}
+
+/* Table */
+table{
+    border: 5px solid rgb(144, 188, 188);
+    margin: 10px;
+}
+
+th,
+td{
+    border: 5px dotted rgb(144, 188, 188);
+    text-align: center;
+}
+
+
+
+
+
+/* Typography */
+
+h1,
+h2,
+h3{
+    font-family: fantasy;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
