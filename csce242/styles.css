@@ -54,7 +54,8 @@ h1{
 }
 
 
-#main-content h3{
+#main-content h3,
+h2{
     text-align: center;
 }
 
@@ -64,6 +65,17 @@ h1{
 @media(min-width:900px){
     .show{
         display: flex;
+    }
+
+    .block{
+        flex: 1;
+    }
+
+    .show img{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
