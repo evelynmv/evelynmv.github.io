@@ -10,6 +10,7 @@ body{
     background-color:#7D8CC4;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 
 #main-content{
@@ -34,15 +35,34 @@ body{
     padding: 10px;
 }
 
+.block{
+    background-color: #7D8CC4;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
 
 /* Typography */
 h1{
     font-family:cursive;
 }
 
-h1,
-h2,
-h3{
+
+#main-content h3{
     text-align: center;
 }
+
+
+
+/* Flex */
+@media(min-width:900px){
+    .show{
+        display: flex;
+    }
+}
+
+
+
 
