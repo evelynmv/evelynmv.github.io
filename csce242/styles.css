@@ -41,6 +41,10 @@ body{
     margin: 10px;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
 
 
 

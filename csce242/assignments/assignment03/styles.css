@@ -1,0 +1,235 @@
+/* Structure */
+body{
+    background-color:#DCE0D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top{
+    padding: 5px;
+}
+
+
+.cl1{
+    background-color:#6B0F1A;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+}
+
+.cl1 h3{
+    padding-left: 5px;
+    margin-right: 0;
+}
+
+.sec1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cl2{
+    background-color:#31081F;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+}
+
+.cals,
+.st{
+    background-color:#6B0F1A;
+
+}
+
+.sep4{
+    padding: 1px;
+    margin: 5px;
+}
+
+.sec2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.conntent2{
+    padding: 5px;
+    background-color: #6B0F1A;
+}
+
+.cals img,
+.st img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#last{
+    background-color: #31081F;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Navigation */ 
+#nav ul{
+    padding-left: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    background-color:#31081F;
+    padding: 5px;
+    border: 1px solid #8e2935;
+}
+
+#nav a{
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+
+
+
+/* Typography */
+#top{
+    text-align: center;
+}
+
+#top h1{
+    color:#8e2935;
+}
+
+.conntent1 h2{
+    color:#31081F;
+    margin-left: 50px;
+}
+
+.sep1,
+.sep4{
+    color: aliceblue;
+}
+
+.some h3{
+    color:aliceblue;
+    margin-left: 35px;
+}
+
+.some li{
+    list-style-type:none;
+}
+
+.some a{
+    color:aliceblue;
+}
+
+#block{
+    margin: 6px;
+    color: aliceblue;
+}
+
+.cals h3,
+.lou h3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Larger Resolutions */
+@media(min-width:900px){
+   
+
+    #nav ul,
+    .sec1,
+    .sec2{
+    display: flex;
+    }
+
+    #nav li{
+    flex: 1;
+    }
+
+    .sep1,
+    .sep4{
+        flex: 4;
+    }
+
+    .sep2,
+    .sep3{
+        flex: 1;
+        margin: auto;
+    }
+
+    .sep2 img,
+    .sep3 img{
+        width: 100%;
+    }
+
+    /* Bottom Part */
+    #block,
+    .cals,
+    .st{
+        display: flex;
+    }
+
+    #ev{
+        flex: 3;
+    }
+
+    #tr{
+        flex:1;
+        background-color: #31081F;
+    }
+
+    #el{
+        flex:4;
+    }
+
+
+
+
+
+    
+
+
+
+
+    .parts{
+        padding: 5px;
+        margin: 10px;
+    }
+
+    #block img{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+}
