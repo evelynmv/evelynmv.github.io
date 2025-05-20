@@ -1,0 +1,85 @@
+/* Structure */
+
+#top{
+    background-color: #73000a;
+    padding: 10px;
+}
+
+#bottom{
+    background-color: black;
+    padding: 10px;
+}
+
+#logo{
+    left: 30px;
+    position: absolute;
+    top: 18px;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+
+#background{
+    background-image: url("images/background.gif");
+}
+
+/* Icons */
+.links svg,
+.links img{
+    width:22px;
+    padding: 5px;
+}
+
+#icons{
+    visibility: hidden;
+    position: absolute;
+    right:5px;
+    top: 25px;
+}
+
+/* Typography */
+#bottom p{
+    color: white;
+}
+
+
+
+/* Navigation */
+#first{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+
+/* meddia (flex) small screen */
+@media (max-width: 691px){
+
+#first{
+    visibility: hidden;
+}
+
+#icons{
+    visibility: visible;
+}
+
+}
+
