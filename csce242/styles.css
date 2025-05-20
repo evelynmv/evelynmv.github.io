@@ -5,6 +5,7 @@ body{
     color: aliceblue;
 }
 
+
 #head,
 #foot{
     background-color:#7D8CC4;
@@ -14,7 +15,13 @@ body{
 }
 
 #main-content{
-    background-color: #8ac3cd;
+    background-image: url("images/ocean.jpg");
+    padding: 5px;
+    margin: 10px;
+}
+
+#second{
+    background-image: url("images/second.jpg");
     padding: 5px;
     margin: 10px;
 }
@@ -35,8 +42,14 @@ body{
     padding: 10px;
 }
 
-.block{
-    background-color: #7D8CC4;
+.block1{
+    background-color: #eb82e585;
+    padding: 10px;
+    margin: 10px;
+}
+
+.block2{
+    background-color: rgba(0, 0, 255, 0.526);
     padding: 10px;
     margin: 10px;
 }
@@ -67,7 +80,8 @@ h2{
         display: flex;
     }
 
-    .block{
+    .block1,
+    .block2{
         flex: 1;
     }
 
