@@ -1,0 +1,31 @@
+/* Structure */
+body{
+    background-color: #EAEAEA;
+}
+
+h1,
+h2,
+h3,
+p{
+    text-align: center;
+}
+
+h1,
+h3,
+p{
+    color: #313D5A;
+}
+
+h2{
+    color:#73628A
+}
+
+.box{
+    background-color: #CBC5EA;
+    border: 2px solid #313D5A;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+
