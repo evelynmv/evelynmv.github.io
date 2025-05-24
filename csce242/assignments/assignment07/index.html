@@ -19,6 +19,7 @@
         <main>
             <div id="ice" class="box">
                 <h3>Ice Cream</h3>
+                <h3 id="repeat"></h3>
 
             </div>
 
@@ -27,12 +28,25 @@
                     Pick a Number
                 </h3>
 
+                <input type="range" min="1" max="5" id="slider">
+
+                <p id="many"></p>
+                
+
             </div>
 
             <div id="change" class="box">
                 <h3>Image Change</h3>
 
-                <button>Show Ice Cream</button>
+                <p>
+                    <button id="btn-change">Show Ice Cream</button>
+                </p>
+
+                <p>
+                    <img id="imgchange" src="" class="hidden">
+                </p>
+
+
 
             </div>
 
@@ -41,5 +55,6 @@
         <footer>
             <p>&copy; evelynmv.giithub.io</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

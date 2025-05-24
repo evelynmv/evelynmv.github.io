@@ -1,6 +1,14 @@
+:root{
+    --background:#EAEAEA;
+    --main-color: #313D5A;
+    --h2-color:#73628A;
+    --box-color: #CBC5EA;
+}
+
+
 /* Structure */
 body{
-    background-color: #EAEAEA;
+    background-color: var(--background);
 }
 
 h1,
@@ -13,19 +21,35 @@ p{
 h1,
 h3,
 p{
-    color: #313D5A;
+    color: var(--main-color);
 }
 
 h2{
-    color:#73628A
+    color: var(--h2-color);
 }
 
 .box{
-    background-color: #CBC5EA;
-    border: 2px solid #313D5A;
+    background-color: var(--box-color);
+    border: 2px solid var(--main-color);
     padding: 20px;
     margin: 0 auto;
 }
 
+.hidden{
+    display: none;
+}
+
+@media screen and (min-width: 600px){
+    main{
+        display: flex;
+    }
+
+    .box{
+        flex: 1;
+        padding: 20px;
+        margin: 20px;
+    }
+
+}
 
 

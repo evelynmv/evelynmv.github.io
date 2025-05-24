@@ -2,7 +2,7 @@
 
 /* example 2 most used */
 document.getElementById("btn-write").onclick = (event) =>{
-    document.getElementById("writep").innerHTML = "You clicked the button";
+    document.getElementById("writep").innerHTML += "You clicked the button <br>";
 
     /* change the button text to say done */
     event.target.innerHTML = "Done!";
@@ -37,6 +37,27 @@ document.getElementById("txt-name").onkeyup = (event) => {
     console.log("Hello World");
     */
 }
+
+document.getElementById("btn-happy").onclick = () =>{
+    const moodImage = document.getElementById("image-mood");
+
+    moodImage.src="images/smile.jpeg";
+    moodImage.classList.remove('hidden');
+}
+
+document.getElementById("btn-sad").onclick = () =>{
+    const moodImage = document.getElementById("image-mood");
+
+    moodImage.src="images/sad.png";
+    moodImage.classList.remove('hidden');
+}
+
+document.getElementById("img-bold").onclick = () =>{
+    const moodImage = document.getElementById("image-mood");
+    moodImage.classList.add("img-bold");
+
+}
+
 
 /* Example to Change the innnerHTML
 /* example 2 most used 
