@@ -1,0 +1,142 @@
+:root{
+    --background:#D7DEDC;
+    --main-color: #9A879D;
+    --second-color: #bcb5be;
+    --extra-color: #7A3B69;
+    --image-background: #ffffff; 
+}
+
+/* Structure */
+body{
+    background-color: var(--background);
+    text-align: center;
+}
+
+#two{
+    background-color: var(--extra-color);
+    padding-bottom: 30em;
+}
+
+#one{
+    background-color: var(--image-background);
+    border: 2px solid var(--extra-color);
+    margin-top: 5px;
+}
+
+#image{
+    max-width:100%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#bike{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 80px;
+}
+
+#first{
+    padding: 10px;
+    margin: 10px;
+}
+
+#second{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+/* Shapes */
+
+#cat{
+ 
+  justify-items: center;
+  margin-top: 50px;
+}
+
+.moon { /*https://nazanin-ashrafi.hashnode.dev/how-to-make-a-moon-with-css*/
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 3.5rem 3rem 0 0 var(--second-color);
+    
+}
+
+.star { /* https://css-shape.com/star/ */
+  width: 15rem;   /*changed the size*/
+  aspect-ratio: 1;
+  background: var(--second-color);
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+   ); 
+}
+
+.cloud { /* https://css-shape.com/cloud/ */
+    width: 15rem;   /*changed the size*/
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: var(--second-color);
+}
+
+
+
+
+.hidden{
+    display: none;
+}
+/* Navigation */
+nav ul{
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 5px;
+    color: var(--main-color);
+}
+
+.list{
+    display: none;
+}
+
+/* Typography */
+h1,
+h3,
+p{
+    color:var(--main-color)
+}
+
+h2{
+    color: var(--second-color)
+}
+
+
+@media screen and (min-width: 600px) {
+#arrow{
+    display:none;
+}
+
+#list{
+    display: flex;
+}
+
+#nav ul{
+    width:fit-content;
+        margin:auto;
+        display:flex;
+}
+
+li + li::before{
+content:" | ";
+padding: 100px;
+}
+}

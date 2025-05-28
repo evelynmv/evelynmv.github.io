@@ -1,0 +1,131 @@
+:root{
+    --background:#598c98;
+    --main-color:#009abc;
+    --second-color: #005458;
+    --text: #000000;
+}
+
+/* Structure */
+
+body{
+    background-color: var(--background);
+    margin: 0% auto;
+}
+
+.logo{
+    padding: 10px;
+}
+
+#nav,
+footer{
+    background-color: var(--second-color);
+}
+
+#blue{
+    max-width: 100%;
+}
+
+#cat{
+    background-color: var(--second-color);
+}
+
+
+
+#images{
+        display: flex;
+        justify-content: center;
+        background-color: var(--main-color);
+}
+
+
+    #images div{
+        padding: 5px;
+    }
+
+/* Navigation */
+#nav{
+    display: flex;
+}
+#toggle-nav{
+   position: absolute;
+   top: 20px;
+   right:40px
+}
+
+#toggle-nav div{
+    width: 25px;
+    height: 2px;
+    background: var(--main-color);
+    margin: 6px 0;
+}
+
+#list ul{
+    list-style-type: none;
+}
+
+
+.hide-small{
+    display: none;
+}
+
+#cat{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* Typography */
+main h1{
+    text-align: center;
+}
+
+
+ @media screen and (min-width: 600px) {
+
+    /* Navigation */
+    #nav{
+        display: flex;
+    }
+    #list{
+        display:flex;
+        position: absolute;
+        right: 50px;
+        
+    } 
+
+    ul li{
+        display: inline;
+    }
+
+    #toggle-nav{
+        display: none;
+    }
+
+    .secound-nav li{
+        display: none;
+    }
+
+  
+  
+    .table{
+        display:flex;
+        justify-content: center;
+    }
+
+    .table div{
+        margin: 15px;
+    }
+
+   
+
+    footer{
+        display: flex;
+    }
+
+    #contact{
+        position: absolute;
+        right:40px
+    }
+ }

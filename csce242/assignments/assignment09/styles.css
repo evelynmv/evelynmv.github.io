@@ -1,0 +1,66 @@
+:root{
+    --main-color:#F56960;
+    --secound-color:#F3C98B;
+    --extra-color: #333;
+}
+
+/* Structure */
+body{
+    text-align: center;
+}
+
+/* Typography */
+h1,
+p{
+    color: var(--main-color);
+}
+
+h2{
+    color: var(--secound-color);
+}
+
+#container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* Townhouse */
+.townhouse {
+  display: inline-block;
+  width: 80px;
+  height: 120px;
+  background-color:var(--secound-color);
+  border: 2px solid var(--extra-color);
+  margin: 10px;
+  position: relative;
+}
+
+.townhouse::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 30px solid var(--main-color);
+}
+
+
+/* Stickman images */
+#stickman {
+  margin-top: 30px;
+}
+
+#stickman img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#exerciseBtn {
+  margin-top: 10px;
+}

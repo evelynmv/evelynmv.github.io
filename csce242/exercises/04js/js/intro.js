@@ -1,91 +1,49 @@
-/* When button clicked to a paragraph */
+/* When button clicked write to a paragraph */
 
-/* example 2 most used */
-document.getElementById("btn-write").onclick = (event) =>{
-    document.getElementById("writep").innerHTML += "You clicked the button <br>";
-
-    /* change the button text to say done */
-    event.target.innerHTML = "Done!";
-
+/*
+const writeParagraph = () => {
+    console.log("Hello Everyone!");
 };
 
+document.getElementById("btn-write").onclick = writeParagraph;
+*/
+/*
+document.getElementById("btn-write").onclick = () => {
+    document.getElementById("writep").innerHTML = "You clicked the button";
 
+    document.getElementById("btn-write").innerHTML = "done!";
+};
+*/
 
+document.getElementById("btn-write").onclick = (event) => {
+    document.getElementById("writep").innerHTML = "You clicked the button";
 
-document.getElementById("btn-st").onclick = (event)=>{
-    document.getElementById("stenp").innerHTML = "Starting...";
+    event.target.innerHTML = "done";
+};
 
+document.getElementById("btn-start").onclick = (event) => {
     event.target.innerHTML = "Started";
+    document.getElementById("startstopp").innerHTML += "<strong>Starting</strong>";
 }
 
-document.getElementById("btn-en").onclick = (event) => {
-    document.getElementById("stenp").innerHTML = "Ended";
-
-    event.target.innerHTML += "Ended";
+document.getElementById("btn-end").onclick = (event) => {
+    event.target.innerHTML = "Ended";
+    document.getElementById("startstopp").innerHTML += "Ending";
 }
-
-
 
 document.getElementById("txt-name").onkeyup = (event) => {
     const userName = event.target.value;
-     document.getElementById("welcomep").innerHTML = `Welcome ${userName}!`;
-
-     /* Dont do this way anymore
-    document.getElementById("welcomep").innerHTML = "Welcome " + userName + "!";
-    */
-    /*
-    console.log("Hello World");
-    */
+    document.getElementById("welcomep").innerHTML = `Welcome ${userName}!`;
 }
 
-document.getElementById("btn-happy").onclick = () =>{
+/* Change happy and sad pictures */
+document.getElementById("btn-happy").onclick = () => {
     const moodImage = document.getElementById("image-mood");
-
-    moodImage.src="images/smile.jpeg";
-    moodImage.classList.remove('hidden');
-}
-
-document.getElementById("btn-sad").onclick = () =>{
-    const moodImage = document.getElementById("image-mood");
-
-    moodImage.src="images/sad.png";
-    moodImage.classList.remove('hidden');
-}
-
-document.getElementById("img-bold").onclick = () =>{
-    const moodImage = document.getElementById("image-mood");
-    moodImage.classList.add("img-bold");
-
-}
-
-
-/* Example to Change the innnerHTML
-/* example 2 most used 
-document.getElementById("btn-write").onclick = () =>{
-    document.getElementById("writep").innerHTML = "You clicked the button";
-
-    /* change the button text to say done 
-    document.getElementById("btn-write").innerHTML = "Done!";
+    moodImage.src="images/happy.jpg";
+    moodImage.classList.remove("hidden");
 };
 
-*/
-
-
-
-
-/* 
-Example 1
-
-const writeParagraph =() =>{
-    console.log("Hello Everyon!");
+document.getElementById("btn-style").onclick = () => {
+    const moodImage = document.getElementById("image-mood");
+    moodImage.classList.add("image-bold");
 };
-document.getElementById("btn-write").onclick=writeParagraph;
- */
-
-/*
-document.getElementById("btn-write").onclick = writeParagraph();
-() means that it will be called even with out being clicked 
- */
-
-
-
