@@ -33,3 +33,10 @@ const switchSlides = (currentSlide, nextSlide) => {
     currentSlide.classList.add("hidden");
     nextSlide.classList.remove("hidden");
 }
+
+
+document.querySelectorAll("#thumbnails img"). forEach((img, i) =>{
+    img.onclick = () => {
+        console.log("I was clicked ${i}");
+    }
+})

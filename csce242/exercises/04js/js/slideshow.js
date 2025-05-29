@@ -5,7 +5,7 @@ setInterval(()=>{
     if(nextSlide == null){
         nextSlide.document.querySelector("#slideshow :first-child");
     }
-
+s
 
     //make current one hidden and next one show
     currentSlide.classList.add("hidden");
