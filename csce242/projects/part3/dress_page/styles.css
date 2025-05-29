@@ -8,7 +8,7 @@
 /* Structure */
 
 body{
-    background-color: var(--background);
+    
     margin: 0% auto;
 }
 
@@ -16,31 +16,37 @@ body{
     padding: 10px;
 }
 
-#nav,
+#nav{
+    background-color: var(--second-color);
+    padding-bottom: 40em;
+}
+
+main{
+    background-color: var(--background);
+    padding: 20px;
+    text-align: center;
+}
+
+.section{
+    background-color: var(--main-color);
+    padding: 20px;
+    margin: 20px;
+}
+
 footer{
     background-color: var(--second-color);
 }
 
-#blue{
-    max-width: 100%;
+/* Logo */
+.logo{
+    padding: 10px;
 }
 
-#cat{
-    background-color: var(--second-color);
+.logo a{
+    text-decoration: none;
+    color: var(--text);
 }
 
-
-
-#images{
-        display: flex;
-        justify-content: center;
-        background-color: var(--main-color);
-}
-
-
-    #images div{
-        padding: 5px;
-    }
 
 /* Navigation */
 #nav{
@@ -68,16 +74,11 @@ footer{
     display: none;
 }
 
-#cat{
-    text-align: center;
-}
 
-footer p{
-    text-align: center;
-}
 
 /* Typography */
-main h1{
+main h1,
+footer p{
     text-align: center;
 }
 
@@ -108,17 +109,6 @@ main h1{
     }
 
   
-  
-    .table{
-        display:flex;
-        justify-content: center;
-    }
-
-    .table div{
-        margin: 15px;
-    }
-
-   
 
     footer{
         display: flex;
@@ -128,4 +118,22 @@ main h1{
         position: absolute;
         right:40px
     }
+ }
+
+
+
+ @media screen and (min-width: 800px){
+    .section{
+        display: flex;
+    }
+
+    .show{
+        flex:1;
+    }
+
+    .info{
+        flex:3;
+    }
+
+
  }
