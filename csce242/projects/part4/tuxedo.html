@@ -1,123 +1,196 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>Rental Tuxedos</title>
-        <link rel="stylesheet" href="secound.css">
+        <title>Tuxedo Page</title>
+         <link rel="stylesheet" href="css/secound.css">
+         <link rel="stylesheet" href="css/nav.css">
     </head>
     <body>
+
         <header>
             <div id="nav">
                 <div class="logo">
-                    <!-- for some reason its not responding-->
-                    <h1><a href="https://evelynmv.github.io/csce242/projects/part3/main_page/main.html">QuinceWorld</a></h1>
-                </div>
-                <div>
-
-                    <div id="toggle-nav">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
-                    <div  id="list" class="hide-small">
-                        <!-- Directory and Shop will be in line and the rest will drop down after clicking on them-->
-                        <ul>
-                        <li>Directory</li>
-                        <ul class="secound-nav">
-                            <li>Venues</li>
-                            <li>Party Decorations</li>
-                            <li>Church Decorations</li>
-                            <li>Catering</li>
-                            <li>Cakes</li>
-                            <li>Beauty</li>
-                            <li>Enterainment</li>
-                            <li>Photos and Videos</li>
-                            <li>Transportion</li>
-                        </ul>
-                        
-                        <li>Shop</li>
-                        <ul class="secound-nav">
-                            <li>Quince Dresses</li>
-                            <li>Accessories</li>
-                            <li>Damas Dresses</li>
-                            <li>Tuxedo</li>
-                            <li>Flowers</li>
-                        </ul>
-                        <li>Get Started</li>
-                    </ul>
-
-                    </div>
+                    <h1>QuinceWorld</h1>
                 </div>
 
-            </div>
+                    <div>
+                        <!-- Hamburger Icon -->
+                        <div id="hamburger" class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
 
+                        <!-- Navigation -->
+                        <nav>
+                        <ul class="main-nav" id="main-nav">
+                            <li><a href="#">Home</a></li>
+
+                            <li>
+                            <button id="directory-btn">Directory</button>
+                            <ul class="dropdown-nav" id="directory-menu">
+                                <li><a href="venue.html">Venues</a></li>
+                                <li><a href="party.html">Party Decorations</a></li>
+                                <li><a href="church.html">Church Decorations</a></li>
+                                <li><a href="food.html">Catering</a></li>
+                            </ul>
+                            </li>
+
+                            <li>
+                            <button id="shop-btn">Shop</button>
+                            <ul class="dropdown-nav" id="shop-menu">
+                                <li><a href="dress.html">Quince Dresses</a></li>
+                                <li><a href="accessories.html">Accessories</a></li>
+                                <li>Damas Dresses</li>
+                                <li><a href="tuxedo.html">Tuxedo</a></li>
+                                <li><a href="flowers.html">Flowers</a></li>
+                            </ul>
+                            </li>
+
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Get Started</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>            
         </header>
 
-        <main>
+        <main id="big-image">
+        <div class="slideshow-container">
+            <img class="slide active" src="images/bigimage1.jpg" alt="Slide 1"> <!--Image from https://en.wikipedia.org/wiki/Quinceañera-->
+            <img class="slide" src="images/bigimage2.jpg" alt="Slide 2"> <!--Image from  https://people.howstuffworks.com/culture-traditions/cultural-traditions/quinceanera.htm-->
+            <img class="slide" src="images/bigimage3.jpg" alt="Slide 3"> <!--Image from https://grandmonarchvenues.com/quinceanera-and-sweet-16-event-planning/-->
+        </div>
+        </main>
+
+
+        <main class="content">
             <h1>Tuxedo</h1>
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/tuxedo-images/tux1.png">
                 </div>
                 <div class="info">
-                    <h3>Tuxedo ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Tuxedo ID:</stromg> 5R44</h3>
+                    <p>
+                        This tuxedo features a sharp and modern design in deep emerald green, offering an elegant look. The single-breasted jacket has two buttons, notched lapels, flap pockets, and a breast pocket for a pocket square. A matching three-button vest adds to the polished appearance, complemented by a crisp white dress shirt for contrast. The matching emerald green bowtie completes the outfit. This tailored slim fit emphasizes a youthful, modern silhouette.
+                    </p>
+                    <p>$260</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/tuxedo-images/tux2.png">
                 </div>
                 <div class="info">
-                    <h3>Tuxedo ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Tuxedo ID:</stromg>9H57</h3>
+                    <p>
+                        This tuxedo is an elegant choice in soft blush pink, creating a refined and celebratory tone. The jacket features a subtle floral jacquard pattern, a single-breasted two-button closure, satin peak lapels, and a tailored fit. Accompanying the jacket is a matching blush pink vest with a jacquard texture, enhancing its formality. A classic white dress shirt provides a clean base, while a blush pink bow tie coordinates perfectly. The solid blush pink pants have a flat-front design and a slim fit, complementing the detailed jacket.
+                    </p>
+                    <p>$200</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/tuxedo-images/tux3.png">
                 </div>
                 <div class="info">
-                    <h3>Tuxedo ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Tuxedo ID:</stromg> 87H8</h3>
+                    <p>
+                        This tuxedo is a striking statement piece, perfect for formal occasions that celebrate style and individuality. The jacket features elegant floral embroidery in shades of blue on the left chest and lower right hip. It's single-breasted with a two-button closure and notched lapels, offering a modern twist on a classic silhouette. A crisp white shirt complements the vibrant tuxedo, while the matching royal blue bow tie ensures a cohesive look. The solid royal blue pants are tailored to a slim fit for a polished appearance.
+                    </p>
+                    <p>$190</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/tuxedo-images/tux4.png">
                 </div>
                 <div class="info">
-                    <h3>Tuxedo ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Tuxedo ID:</stromg>8J615</h3>
+                    <p>
+                        This tuxedo is a luxurious ensemble that blends classic tailoring with ornate details, ideal for grand occasions. The jacket features gold embroidery in a botanical motif, accented by black satin shawl lapels for added sophistication. It has a single-breasted design with a one-button closure and flap pockets trimmed in black. The outfit includes a classic white dress shirt with vertical pleats, a matching green vest with a three-button design, and a black satin bow tie. Completing the look are slim-fit emerald green pants that create a cohesive, bold appearance.
+                    </p>
+                    <p>$205</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/tuxedo-images/tux5.png">
                 </div>
                 <div class="info">
-                    <h3>Tuxedo ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Tuxedo ID:</stromg> 8F58</h3>
+                    <p>
+                        This tuxedo is a bold and festive ensemble, ideal for celebratory events. It features vibrant red floral embroidery with green leaves, resembling poinsettias, across the jacket, sleeves, and pants. The single-breasted jacket includes a two-button front closure and notch lapels for a contemporary silhouette, complemented by flap pockets and buttoned cuffs. The crisp white dress shirt has a traditional collar, and the oversized red moño-style bow tie with subtle gold detailing adds a cultural touch. The tailored pants also feature coordinated floral embroidery on the outer sides, creating a cohesive look.
+                    </p>
+                    <p>$182</p>
                 </div>
             </div>
 
+            <div class="section">
+                <div class="show">
+                    <img src="images/tuxedo-images/tux6.png">
+                </div>
+                <div class="info">
+                    <h3><stromg>Tuxedo ID:</stromg> 5D58</h3>
+                    <p>
+                        This tuxedo provides a romantic and fresh take on traditional formalwear, perfect for spring or garden-themed events. It features intricate lavender floral embroidery throughout the jacket, sleeves, and pants, with a cropped cut typical of charro-inspired styles. The single-button front closure and decorative buttons on the vest add a polished touch without excess formality.Paired with a crisp white dress shirt and an oversized mint green moño-style bow tie, it emphasizes festive flair. The slim, tailored pants include matching lavender embroidery cascading down the legs, creating an elongated silhouette.
+                    </p>
+                    <p>$165</p>
+                </div>
+            </div>
 
+            <div class="section">
+                <div class="show">
+                    <img src="images/tuxedo-images/tux7.png">
+                </div>
+                <div class="info">
+                    <h3><stromg>Tuxedo ID:</stromg> 89D9</h3>
+                    <p>
+                        This tuxedo provides a romantic and fresh take on traditional formalwear, perfect for spring or garden-themed events. It features intricate lavender floral embroidery throughout the jacket, sleeves, and pants, with a cropped cut typical of charro-inspired styles. The single-button front closure and decorative buttons on the vest add a polished touch without excess formality. Paired with a crisp white dress shirt and an oversized mint green moño-style bow tie, it emphasizes festive flair. The slim, tailored pants include matching lavender embroidery cascading down the legs, creating an elongated silhouette.
+                    </p>
+                    <p>$243</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="show">
+                    <img src="images/tuxedo-images/tux8.png">
+                </div>
+                <div class="info">
+                    <h3><stromg>Tuxedo ID:</stromg> 865W0</h3>
+                    <p>
+                        The three-piece tuxedo is an elegant ensemble in a muted dusty rose color, featuring coordinated jacket, vest, and trousers adorned with intricate gold floral embroidery. The jacket showcases this beautiful embroidery throughout, with subtly rounded notch lapels and fabric-covered buttons that match the suit. It includes flap pockets on both sides and a welt chest pocket, all tailored to create a modern silhouette. The vest matches the jacket perfectly, sporting a classic V-neck cut and three buttons, adding depth and sophistication to the look. Underneath, a bright white dress shirt with a structured spread collar provides a clean contrast to the ornate tuxedo. Completing the outfit is a matching dusty rose bow tie in a satin finish. The trousers, also in dusty rose with gold embroidery, maintain a slim and tapered fit, ensuring a sharp look while allowing the embroidered details to take center stage.
+                    </p>
+                    <p>$267</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="show">
+                    <img src="images/tuxedo-images/tux9.png">
+                </div>
+                <div class="info">
+                    <h3><stromg>Tuxedo ID:</stromg> 26Y6</h3>
+                    <p>
+                        This tuxedo offers a fresh, romantic, and visually striking choice for weddings or upscale events, blending bold style with elegance. The light pastel pink jacket features delicate wavy silver glitter embroidery that adds sparkle and movement. With classic notch lapels and fabric-covered buttons that match, it exudes sophistication. Practicality is addressed with two flap pockets and a welt pocket on the chest, enhanced by a pink floral appliqué that adds a romantic touch. The slim, structured fit creates a clean silhouette. The matching vest features a subtle silver pattern, styled with a three-button, V-neck design that adds depth and formality. A crisp white dress shirt with a pointed collar provides a refreshing contrast, while the matching pastel pink bow tie, likely in satin, introduces a textural element. The trousers continue the color scheme and feature subtle silver embroidery, tailored for a streamlined appearance, making this tuxedo a standout for any elegant occasion.
+                    </p>
+                    <p>$240</p>
+                </div>
+            </div>
         </main>
 
+        
         <footer>
             <!-- Created a New Logo for this Website-->
              <!-- The name and the contact info-->
             <div class="logo">
-                <h1><a href="">QuinceWorld</a></h1>
+                <h1> QuinceWorld</h1>
             </div>
             
             <div id="contact">
@@ -127,5 +200,8 @@
 
 
         </footer>
+
+        <script src="java/nav.js"></script>
+        <script src="java/bigimage.js"></script>
     </body>
 </html>

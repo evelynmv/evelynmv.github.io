@@ -1,0 +1,133 @@
+/* Structure */
+#nav {
+  position: relative;
+  z-index: 10;
+}
+
+header {
+  position: relative; /* Ensures it's in stacking context */
+  z-index: 10;
+}
+
+/* Navigation */
+.hamburger {
+  display: block;
+  width: 30px;
+  margin: 15px;
+  cursor: pointer;
+
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.hamburger div {
+  background-color: white;
+  height: 4px;
+  margin: 6px 0;
+}
+
+
+
+.main-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.main-nav > li {
+  position: relative;
+}
+
+.main-nav a,
+.main-nav button {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.main-nav a:hover,
+.main-nav button:hover {
+  background-color: #444;
+  
+}
+
+.dropdown-nav {
+  display: none;
+}
+
+
+/* Slideshow Styles */
+#big-image,
+.slideshow-container {
+  position: relative;
+  z-index: 1;
+}
+.slideshow-container {
+  max-width:100%;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.active {
+  display: block;
+}
+
+footer{
+  color:white
+}
+
+
+
+/* Desktop */
+@media screen and (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex !important;
+    flex-direction: row;
+
+    position: absolute;
+  right: 20px;
+  top: 10px;
+  }
+
+  .dropdown-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    display: none;
+  }
+
+  .main-nav li:hover .dropdown-nav {
+    display: block;
+  }
+
+  footer{
+        display: flex;
+    }
+
+    #contact{
+        position: absolute;
+        right:40px
+    }
+}

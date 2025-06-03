@@ -1,123 +1,136 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>Transportion Pages</title>
-        <link rel="stylesheet" href="secound.css">
+        <title>Transportation Page</title>
+         <link rel="stylesheet" href="css/secound.css">
+         <link rel="stylesheet" href="css/nav.css">
     </head>
     <body>
+
         <header>
             <div id="nav">
                 <div class="logo">
-                    <!-- for some reason its not responding-->
-                    <h1><a href="https://evelynmv.github.io/csce242/projects/part3/main_page/main.html">QuinceWorld</a></h1>
-                </div>
-                <div>
-
-                    <div id="toggle-nav">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
-                    <div  id="list" class="hide-small">
-                        <!-- Directory and Shop will be in line and the rest will drop down after clicking on them-->
-                        <ul>
-                        <li>Directory</li>
-                        <ul class="secound-nav">
-                            <li>Venues</li>
-                            <li>Party Decorations</li>
-                            <li>Church Decorations</li>
-                            <li>Catering</li>
-                            <li>Cakes</li>
-                            <li>Beauty</li>
-                            <li>Enterainment</li>
-                            <li>Photos and Videos</li>
-                            <li>Transportion</li>
-                        </ul>
-                        
-                        <li>Shop</li>
-                        <ul class="secound-nav">
-                            <li>Quince Dresses</li>
-                            <li>Accessories</li>
-                            <li>Damas Dresses</li>
-                            <li>Tuxedo</li>
-                            <li>Flowers</li>
-                        </ul>
-                        <li>Get Started</li>
-                    </ul>
-
-                    </div>
+                    <h1>QuinceWorld</h1>
                 </div>
 
-            </div>
+                    <div>
+                        <!-- Hamburger Icon -->
+                        <div id="hamburger" class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
 
+                        <!-- Navigation -->
+                        <nav>
+                        <ul class="main-nav" id="main-nav">
+                            <li><a href="#">Home</a></li>
+
+                            <li>
+                            <button id="directory-btn">Directory</button>
+                            <ul class="dropdown-nav" id="directory-menu">
+                                <li><a href="venue.html">Venues</a></li>
+                                <li><a href="party.html">Party Decorations</a></li>
+                                <li><a href="church.html">Church Decorations</a></li>
+                                <li><a href="food.html">Catering</a></li>
+                            </ul>
+                            </li>
+
+                            <li>
+                            <button id="shop-btn">Shop</button>
+                            <ul class="dropdown-nav" id="shop-menu">
+                                <li><a href="dress.html">Quince Dresses</a></li>
+                                <li><a href="accessories.html">Accessories</a></li>
+                                <li>Damas Dresses</li>
+                                <li><a href="tuxedo.html">Tuxedo</a></li>
+                                <li><a href="flowers.html">Flowers</a></li>
+                            </ul>
+                            </li>
+
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Get Started</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>            
         </header>
 
-        <main>
-            <h1>Transportion</h1>
+        <main id="big-image">
+        <div class="slideshow-container">
+            <img class="slide active" src="images/bigimage1.jpg" alt="Slide 1"> <!--Image from https://en.wikipedia.org/wiki/Quinceañera-->
+            <img class="slide" src="images/bigimage2.jpg" alt="Slide 2"> <!--Image from  https://people.howstuffworks.com/culture-traditions/cultural-traditions/quinceanera.htm-->
+            <img class="slide" src="images/bigimage3.jpg" alt="Slide 3"> <!--Image from https://grandmonarchvenues.com/quinceanera-and-sweet-16-event-planning/-->
+        </div>
+        </main>
+
+
+        <main class="content">
+            <h1>Transportation</h1>
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/transportation-images/bus1.jpg">
+                    <!--Image from  https://www.partybus.com/columbia/sc/united-states#:~:text=Party%20bus%20rentals%20in%20Columbia,a%20party%20bus%20in%20Columbia.-->
                 </div>
                 <div class="info">
-                    <h3>Transportion ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Party Bus ID:</stromg> C482</h3>
+                    <p>
+                        The exterior design of the Ford chassis-based mid-sized party bus features a sleek, high-gloss black finish, giving it a classy and modern appearance. The extended body includes tinted windows for added privacy and a streamlined silhouette. It showcases a classic Ford van front end with a chrome grille, large side mirrors, and a high windshield that provides excellent visibility. Subtle overhead marker lights line the roof, complemented by sleek front headlights and chrome wheel covers that enhance its polished look. A large automatic passenger door on the right side allows for easy entry and exit. Inside, the bus boasts wraparound leather seating, LED mood lighting, a premium sound system, flat-screen TVs, and a bar area equipped with cup holders and coolers.
+                    </p>
+                    <p>$350 per hour</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/transportation-images/limo1.jpg">
+                    <!--Image from  https://www.partybus.com/columbia/sc/united-states#:~:text=Party%20bus%20rentals%20in%20Columbia,a%20party%20bus%20in%20Columbia.-->
                 </div>
                 <div class="info">
-                    <h3>Transportion ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Limo ID:</stromg> G916</h3>
+                    <p>
+                        The exterior design features a Ford chassis-based mid-sized party bus with a sleek, high-gloss black finish. It has tinted windows for privacy, a classic Ford van front with a chrome grille, and large side mirrors for visibility. The bus includes subtle overhead marker lights, stylish headlights, and chrome wheel covers. A large automatic passenger door on the right side allows for easy entry and exit. Inside, the bus offers wraparound leather seating, LED mood lighting, a premium sound system, flat-screen TVs, and a bar area with cup holders and coolers. It comfortably accommodates 20 to 30 passengers, depending on the configuration.
+                    </p>
+                    <p>$240 per hour</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/transportation-images/limo2.jpg">
+                    <!--Image from  https://www.partybuses.net/party-bus-columbia-south-carolina/-->
                 </div>
                 <div class="info">
-                    <h3>Transportion ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Limo ID:</stromg> E564</h3>
+                    <p>
+                        The Custom Infiniti QX56 Stretch Limousine boasts a glossy white exterior, perfect for formal events. Its extra-long configuration features a sleek silhouette and large chrome rims. The exotic gull-wing door provides a dramatic VIP-style entrance, while tinted windows ensure privacy. Inside, the limousine offers luxurious leather seating in wraparound or bench styles. It is equipped with custom LED lighting, a high-end audio system with Bluetooth, flat-screen TVs, and mini-bar setups with glassware and lighting. Touchscreen controls manage lighting, sound, and climate, while disco lighting can be configured in various styles. The limousine comfortably accommodates 18 to 22 passengers, depending on the setup.
+                    </p>
+                    <p>$350 per hour</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/transportation-images/carriage1.jpg">
+                    <!-- Image from  https://www.facebook.com/photo/?fbid=1242365234559075&set=gm.4000777783527264&idorvanity=1631021487169584-->
                 </div>
                 <div class="info">
-                    <h3>Transportion ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Carriage ID:</stromg> W915</h3>
+                    <p>
+                        The carriage is designed like a Cinderella pumpkin coach, featuring an ornate white wrought iron frame with intricate scrollwork that gives it a whimsical feel. Its pure white color makes it ideal for formal events such as quinceañeras and weddings. The carriage is pulled by a pair of well-groomed white horses, likely Percherons, with classic black leather harnesses and metallic accents, allowing for easy control by the driver. Inside, bench-style white seats accommodate 2 to 4 guests. The large spoked wheels add vintage charm, while the driver, dressed in a vest and top hat, enhances the elegant appearance. 
+                    </p>
+                    <p>$450 per hour</p>
                 </div>
             </div>
-
-            <div class="section">
-                <div class="show">
-                    <img src="images/064755.gif">
-                </div>
-                <div class="info">
-                    <h3>Transportion ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
-                </div>
-            </div>
-
 
         </main>
 
+        
         <footer>
             <!-- Created a New Logo for this Website-->
              <!-- The name and the contact info-->
             <div class="logo">
-                <h1><a href="">QuinceWorld</a></h1>
+                <h1> QuinceWorld</h1>
             </div>
             
             <div id="contact">
@@ -127,5 +140,8 @@
 
 
         </footer>
+
+        <script src="java/nav.js"></script>
+        <script src="java/bigimage.js"></script>
     </body>
 </html>

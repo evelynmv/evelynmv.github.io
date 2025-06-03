@@ -2,7 +2,8 @@
 <html lang="eng">
     <head>
         <title>Main Page</title>
-         <link rel="stylesheet" href="main.css">
+         <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/nav.css">
     </head>
     <body>
 
@@ -12,65 +13,56 @@
                     <h1>QuinceWorld</h1>
                 </div>
 
+                    <div>
+                        <!-- Hamburger Icon -->
+                        <div id="hamburger" class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
 
-                <div>
-                    
-  <!-- Hamburger Toggle (checkbox and divs) -->
-  <input type="checkbox" id="menu-toggle" />
-  <label for="menu-toggle" class="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-  </label>
+                        <!-- Navigation -->
+                        <nav>
+                        <ul class="main-nav" id="main-nav">
+                            <li><a href="#">Home</a></li>
 
-  <!-- Navigation -->
-  <nav>
-    <ul class="main-nav">
-      <li><a href="#">Home</a></li>
+                            <li>
+                            <button id="directory-btn">Directory</button>
+                            <ul class="dropdown-nav" id="directory-menu">
+                                <li><a href="venue.html">Venues</a></li>
+                                <li><a href="party.html">Party Decorations</a></li>
+                                <li><a href="church.html">Church Decorations</a></li>
+                                <li><a href="food.html">Catering</a></li>
+                            </ul>
+                            </li>
 
-      <li>
-        <!-- Toggle submenu on mobile -->
-        <input type="checkbox" id="directory-drop">
-        <label for="directory-drop">Directory</label>
-        <ul class="dropdown-nav">
-          <li><a href="venue.html">Venues</a></li>
-            <li><a href="party.html">Party Decorations</a></li>
-            <li><a href="church.html">Church Decorations</a></li>
-            <li><a href="food.html">Catering</a></li>
-        </ul>
-      </li>
+                            <li>
+                            <button id="shop-btn">Shop</button>
+                            <ul class="dropdown-nav" id="shop-menu">
+                                <li><a href="dress.html">Quince Dresses</a></li>
+                                <li><a href="accessories.html">Accessories</a></li>
+                                <li>Damas Dresses</li>
+                                <li><a href="tuxedo.html">Tuxedo</a></li>
+                                <li><a href="flowers.html">Flowers</a></li>
+                            </ul>
+                            </li>
 
-      <li>
-        <input type="checkbox" id="shop-drop">
-        <label for="shop-drop">Shop</label>
-        <ul class="dropdown-nav">
-          <li><a href="dress.html">Quince Dresses</a></li>
-            <li><a href="accessories.html">Accessories</a></li>
-            <li>Damas Dresses</li>
-            <li><a href="tuxedo.html">Tuxedo</a></li>
-            <li><a href="flowers.html">Flowers</a></li>
-      </li>
-                                
-        </ul>
-      </li>
-
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Get Started</a></li>
-    </ul>
-  </nav>
-
-
-
-                </div>
-
-            <div id="background">
-                <img src="images/big-image.gif" id="blue">
-
-            </div>
-
-            
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Get Started</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>            
         </header>
+
+        <main id="big-image">
+        <div class="slideshow-container">
+            <img class="slide active" src="images/bigimage1.jpg" alt="Slide 1"> <!--Image from https://en.wikipedia.org/wiki/Quinceañera-->
+            <img class="slide" src="images/bigimage2.jpg" alt="Slide 2"> <!--Image from  https://people.howstuffworks.com/culture-traditions/cultural-traditions/quinceanera.htm-->
+            <img class="slide" src="images/bigimage3.jpg" alt="Slide 3"> <!--Image from https://grandmonarchvenues.com/quinceanera-and-sweet-16-event-planning/-->
+        </div>
+        </main>
 
         <main id="cat">
             <div>
@@ -162,5 +154,7 @@
 
         </footer>
 
+        <script src="java/nav.js"></script>
+        <script src="java/bigimage.js"></script>
     </body>
 </html>

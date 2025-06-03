@@ -1,0 +1,80 @@
+:root{
+    --background:#d7cec7;
+    --main-color:#76323f;
+    --second-color: #565656;
+    --text: #c09f80;
+}
+
+/* Structure */
+
+body{
+    background-color: var(--background);
+    margin: 0% auto;
+}
+
+.logo{
+    padding: 10px;
+}
+
+#nav,
+footer{
+    background-color: var(--second-color);
+}
+
+#cat{
+    background-color: var(--second-color);
+}
+
+
+
+#images{
+        display: flex;
+        justify-content: center;
+        background-color: var(--main-color);
+}
+
+
+    #images div{
+        padding: 5px;
+    }
+
+#cat{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+/* Typography */
+main h1{
+    text-align: center;
+}
+
+
+ @media screen and (min-width: 600px) {
+
+
+  
+  /* other */
+    .table{
+        display:flex;
+        justify-content: center;
+    }
+
+    .table div{
+        margin: 15px;
+    }
+
+   
+
+    footer{
+        display: flex;
+    }
+
+    #contact{
+        position: absolute;
+        right:40px
+    }
+ }

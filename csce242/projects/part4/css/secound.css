@@ -1,0 +1,61 @@
+:root{
+    --background:#d7cec7;
+    --main-color:#76323f;
+    --second-color: #565656;
+    --text: #c09f80;
+}
+
+/* Structure */
+body{
+    background-color: var(--background);
+    margin: 0% auto;
+}
+
+.logo{
+    padding: 10px;
+}
+
+#nav,
+footer{
+    background-color: var(--second-color);
+}
+
+.content{
+    background-color: var(--background);
+    padding: 20px;
+    text-align: center;
+}
+
+.section{
+    background-color: var(--main-color);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* Typography */
+.content h1{
+    text-align: center;
+}
+
+/* small images */
+.section img{
+    max-width: 70%;
+}
+
+
+ @media screen and (min-width: 800px){
+    .section{
+        display: flex;
+    }
+
+    .show{
+        flex:1;
+    }
+
+    .info{
+        flex:3;
+    }
+
+
+ }

@@ -1,124 +1,122 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>Venues</title>
-        <link rel="stylesheet" href="secound.css">
+        <title>Venue Page</title>
+         <link rel="stylesheet" href="css/secound.css">
+         <link rel="stylesheet" href="css/nav.css">
     </head>
     <body>
+
         <header>
             <div id="nav">
                 <div class="logo">
-                    <!-- for some reason its not responding-->
-                    <h1><a href="https://evelynmv.github.io/csce242/projects/part3/main_page/main.html">QuinceWorld</a></h1>
-                </div>
-                <div>
-
-                    <div id="toggle-nav">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
-                    <div  id="list" class="hide-small">
-                        <!-- Directory and Shop will be in line and the rest will drop down after clicking on them-->
-                        <ul>
-                        <li>Directory</li>
-                        <ul class="secound-nav">
-                            <li>Venues</li>
-                            <li>Party Decorations</li>
-                            <li>Church Decorations</li>
-                            <li>Catering</li>
-                            <li>Cakes</li>
-                            <li>Beauty</li>
-                            <li>Enterainment</li>
-                            <li>Photos and Videos</li>
-                            <li>Transportion</li>
-                        </ul>
-                        
-                        <li>Shop</li>
-                        <ul class="secound-nav">
-                            <li>Quince Dresses</li>
-                            <li>Accessories</li>
-                            <li>Damas Dresses</li>
-                            <li>Tuxedo</li>
-                            <li>Flowers</li>
-                        </ul>
-                        <li>Get Started</li>
-                    </ul>
-
-                    </div>
+                    <h1>QuinceWorld</h1>
                 </div>
 
-            </div>
+                    <div>
+                        <!-- Hamburger Icon -->
+                        <div id="hamburger" class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
 
+                        <!-- Navigation -->
+                        <nav>
+                        <ul class="main-nav" id="main-nav">
+                            <li><a href="#">Home</a></li>
+
+                            <li>
+                            <button id="directory-btn">Directory</button>
+                            <ul class="dropdown-nav" id="directory-menu">
+                                <li><a href="venue.html">Venues</a></li>
+                                <li><a href="party.html">Party Decorations</a></li>
+                                <li><a href="church.html">Church Decorations</a></li>
+                                <li><a href="food.html">Catering</a></li>
+                            </ul>
+                            </li>
+
+                            <li>
+                            <button id="shop-btn">Shop</button>
+                            <ul class="dropdown-nav" id="shop-menu">
+                                <li><a href="dress.html">Quince Dresses</a></li>
+                                <li><a href="accessories.html">Accessories</a></li>
+                                <li>Damas Dresses</li>
+                                <li><a href="tuxedo.html">Tuxedo</a></li>
+                                <li><a href="flowers.html">Flowers</a></li>
+                            </ul>
+                            </li>
+
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Get Started</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>            
         </header>
 
-        <main>
+        <main id="big-image">
+        <div class="slideshow-container">
+            <img class="slide active" src="images/bigimage1.jpg" alt="Slide 1"> <!--Image from https://en.wikipedia.org/wiki/Quinceañera-->
+            <img class="slide" src="images/bigimage2.jpg" alt="Slide 2"> <!--Image from  https://people.howstuffworks.com/culture-traditions/cultural-traditions/quinceanera.htm-->
+            <img class="slide" src="images/bigimage3.jpg" alt="Slide 3"> <!--Image from https://grandmonarchvenues.com/quinceanera-and-sweet-16-event-planning/-->
+        </div>
+        </main>
+
+
+        <main class="content">
             <h1>Venues</h1>
-            <h2>Columbia, SC</h2>
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/venue-images/venue1.jpeg">
+                    <!--Image from  https://book.centralenergy.net/?gad_source=1&gad_campaignid=17431841426&gbraid=0AAAAACKSUuCvcO-2xz-8j9dExo6WeFGBs&gclid=CjwKCAjwl_XBBhAUEiwAWK2hzoOqtH2oqfLQEjGSmeLiF7dXgH_CjX9dXjcpZHQRVNBckAnpMrLVPRoCsm4QAvD_BwE-->
                 </div>
                 <div class="info">
-                    <h3>Venues ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Venue ID:</stromg> 53H5</h3>
+                    <p>
+                        The Venue, with its rich 19th-century architecture, offers a unique and elegant backdrop that beautifully combines timeless design with contemporary amenities. This historic space can accommodate a variety of events, welcoming up to 125 guests for seated occasions or 175 for standing receptions, making it versatile enough to suit different types and sizes of gatherings. As a premier full-service event location, The Venue prides itself on personalized service and exceptional catering options, ensuring a seamless experience for both hosts and guests. Finally, its prime location in the heart of downtown Columbia allows attendees to enjoy the vibrant atmosphere, with easy access to local attractions, dining, and entertainment.
+                    </p>
+                    <p>$2,320</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/venue-images/venue2.png">
+                    <!--Images from https://www.twelveoakestate.com-->
                 </div>
                 <div class="info">
-                    <h3>Venues ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Venue ID:</stromg> 68J3</h3>
+                    <p>
+                        Twelve Oak Estate features a stunning Grand Manor House, a beautifully restored 19th-century structure with covered verandas and classic architecture that radiates timeless elegance. Surrounding it are versatile event spaces, including the serene Cherry Blossom Lawn, perfect for ceremonies, and the charming Dolly-House Stables, ideal for cocktail hours. For larger gatherings, the Airplane Hangar offers a spacious 5,000-square-foot area for receptions and dancing. The estate's scenic grounds, adorned with rolling pastures and mature oak trees, provide a picturesque backdrop for photos and a tranquil atmosphere. With a dedicated team offering comprehensive event planning services and various entertainment options, the venue can accommodate up to 200 seated guests and up to 5,000 standing, making it suitable for both intimate and grand celebrations.
+                    </p>
+                    <p>$2,834</p>
                 </div>
             </div>
 
             <div class="section">
                 <div class="show">
-                    <img src="images/064755.gif">
+                    <img src="images/venue-images/venuw3.png">
+                    <!--Image from  https://701whaley.com/gallery/-->
                 </div>
                 <div class="info">
-                    <h3>Venues ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
+                    <h3><stromg>Venue ID:</stromg> 48E6</h3>
+                    <p>
+                        701 Whaley offers a range of beautifully designed spaces perfect for any event. The Grand Hall, with its grand staircase and original columns, spans 6,000 square feet, providing a warm and inviting atmosphere. For smaller gatherings, the Olympia Room features hardwood floors and tall windows in 2,000 square feet, while the Granby Room offers a raw, industrial vibe with its glass storefront in 2,600 square feet. Additionally, the Market Space includes over 3,700 square feet of open area and an 800-square-foot covered porch, ideal for outdoor gatherings. Amenities include tables and chairs, a spacious catering area, and a bridal/green room available for rent. The venue is surrounded by a paved courtyard, suitable for outdoor events. Rentals cover a 14-hour time frame from 10 AM to midnight and can accommodate up to 750 guests, making it an excellent choice for both intimate and large-scale occasions.
+                    </p>
+                    <p>$3,159</p>
                 </div>
             </div>
-
-            <div class="section">
-                <div class="show">
-                    <img src="images/064755.gif">
-                </div>
-                <div class="info">
-                    <h3>Venues ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="show">
-                    <img src="images/064755.gif">
-                </div>
-                <div class="info">
-                    <h3>Venues ID</h3>
-                    <p>Description</p>
-                    <p>$$$</p>
-                </div>
-            </div>
-
 
         </main>
 
+        
         <footer>
             <!-- Created a New Logo for this Website-->
              <!-- The name and the contact info-->
             <div class="logo">
-                <h1><a href="">QuinceWorld</a></h1>
+                <h1> QuinceWorld</h1>
             </div>
             
             <div id="contact">
@@ -128,5 +126,8 @@
 
 
         </footer>
+
+        <script src="java/nav.js"></script>
+        <script src="java/bigimage.js"></script>
     </body>
 </html>
