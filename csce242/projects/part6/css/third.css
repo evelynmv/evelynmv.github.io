@@ -12,7 +12,10 @@
 #beau,
 #tux,
 #dama,
-#ven{
+#ven,
+#ent,
+#church,
+#party{
     padding: 20px;
     text-align: center;
     color: var(--white);
@@ -40,13 +43,16 @@
 #dress,
 #access,
 #dama,
-#venue{
+#venue,
+#church{
      background-color: var(--lavender);
 }
 
 #flower,
 #beau,
-#tux{
+#tux,
+#ent,
+#party{
     background-color: var(--deep-plum);
 }
 
