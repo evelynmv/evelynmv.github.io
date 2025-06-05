@@ -1,34 +1,40 @@
-/* ---------- 1. fetch the JSON ---------- */
-const getVenues = async () => {
-  const url = 'https://evelynmv.github.io/csce242/projects/part6/json/location.json';            // update if the file lives elsewhere
-  
-  try {
-        const response = await fetch(url);
-        return response.json();
-    }catch(error){
-        console.log(error);
-    }
-}; 
+https://evelynmv.github.io/csce242/projects/part6/json/location.json
 
-/* ---------- 2. build & inject markup --- */
+const getVenues = async () => {
+  const url = 'https://evelynmv.github.io/csce242/projects/part6/json/location.json';
+
+  try {
+    const response = await fetch(url);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log("Fetched venues:", data); 
+    return data;
+
+  } catch (error) {
+    console.error("Fetch error:", error); 
+  }
+};
+
 const showVenues = async () => {
   const venues = await getVenues();
-  const wrap   = document.getElementById('venues');
+
+  const wrap = document.getElementById('venues'); 
 
   venues.forEach(v => {
-    // outer wrapper
     const section = document.createElement('div');
     section.classList.add('section');
 
-    // image column
     const show = document.createElement('div');
     show.classList.add('show');
-    const img  = document.createElement('img');
+    const img = document.createElement('img');
     img.src = v.image;
     img.alt = `Venue ${v.id}`;
     show.append(img);
 
-    // info column
     const info = document.createElement('div');
     info.classList.add('info');
 
@@ -44,10 +50,9 @@ const showVenues = async () => {
     pPrice.textContent = v.price;
     info.append(pPrice);
 
-    // assemble
     section.append(show, info);
-    wrap.append(section);
+    wrap.append(section); // ❗️ If `wrap` is null, this will crash
   });
 };
 
-showVenues();           // kick it off
+showVenues(); // ✅ START FUNCTION
