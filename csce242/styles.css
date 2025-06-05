@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 
-#main-content{
+.main-content{
     background-image: url("images/ocean.jpg");
     padding: 5px;
     margin: 10px;
@@ -60,6 +60,59 @@ img{
     max-width:100%
 }
 
+/* Navigation */
+nav {
+    background-color: #7D8CC4;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; 
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block; 
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color:#BEE7E8; 
+    color:#7D8CC4;
+    border-radius: 5px; 
+}
+
+#third{
+    text-align: center;
+}
+
+#third ul{
+    list-style-type: none;
+    padding: 0;
+}
+#third li{
+    padding: 10px;
+}
+#third a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#third a:hover{
+    color: #7D8CC4;
+    background-color: #BEE7E8;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 
 /* Typography */
@@ -70,6 +123,10 @@ h1{
 
 #main-content h3,
 h2{
+    text-align: center;
+}
+.block2 h3,
+.block1 h3{
     text-align: center;
 }
 
