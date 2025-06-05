@@ -1,0 +1,74 @@
+[
+    {
+        "_id":1,
+        "image" : "images/dress1.jpeg",
+        "Dress ID" :"#3039",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":2,
+        "image" : "images/dress2.jpeg",
+        "Dress ID" :"#4051",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":3,
+        "image" : "images/dress3.jpeg",
+        "Dress ID" :"#4490",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":4,
+        "image" : "images/dress4.jpeg",
+        "Dress ID" :"#9038",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":5,
+        "image" : "images/dress5.jpeg",
+        "Dress ID" :"#3480",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":6,
+        "image" : "images/dress6.jpeg",
+        "Dress ID" :"#9283",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":7,
+        "image" : "images/dress7.jpeg",
+        "Dress ID" :"#7424",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":8,
+        "image" : "images/dress8.jpeg",
+        "Dress ID" :"#8293",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    },
+
+     {
+        "_id":9,
+        "image" : "images/dress9.jpeg",
+        "Dress ID" :"#7930",
+        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
+        "Price" : "$1,999.00"
+    }
+
+]

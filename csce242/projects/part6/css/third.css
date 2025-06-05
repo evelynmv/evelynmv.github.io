@@ -1,0 +1,110 @@
+:root{
+    --lavender:#c8a2c8;
+    --silver:#c0c0c0;
+    --white: #ffffff;
+    --deep-plum:#5d3a66;
+}
+
+/* Structure */
+#dress,
+#flower,
+#access,
+#beau,
+#tux,
+#dama,
+#venue{
+    padding: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.section,
+.sec2{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* small images */
+.section img,
+.sec2 img{
+    max-width: 70%;
+    padding-top: 10px;
+}
+
+/* colors */
+.section{
+    background-color: var(--deep-plum);
+}
+
+#dress,
+#access,
+#dama,
+#venue{
+     background-color: var(--lavender);
+}
+
+#flower,
+#beau,
+#tux{
+    background-color: var(--deep-plum);
+}
+
+.sec2 {
+    background-color: var(--lavender);
+}
+
+
+ @media screen and (min-width: 800px){
+    .section,
+    .sec2{
+        display: flex;
+    }
+
+    .show{
+        flex:1;
+    }
+
+    .info{
+        flex:3;
+    }
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+/* Secound Nav */
+#second{
+    background-color: var(--deep-plum);
+    display: flex;
+    width: 100%;
+}
+
+#help {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+#help li a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+}
+
+#help li a:hover {
+  background: var(--lavender);
+  border-radius: 4px;
+}

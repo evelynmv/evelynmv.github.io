@@ -194,6 +194,73 @@ h1, h2 {
     text-align: center;
 }
 
+#shoes section {
+    width:90%;
+    margin:10px auto;
+    padding:5px;
+}
+
+#shoes h3, #shoes ul, #shoes p {
+    color:white;
+}
+
+#breweries {
+    flex-wrap: wrap;
+}
+
+#breweries section {
+    width:40%;
+    margin:10px auto;
+    padding:5px;
+    background-color:burlywood;
+}
+
+#breweries iframe {
+    max-width:90%;
+    display:block;
+    margin:auto;
+}
+
+/* Forms */
+#contact-form {
+    position:relative;
+}
+
+#contact-form p {
+    display:flex;
+}
+
+#contact-form label {
+    display:block;
+    flex:1;
+    font-weight: 600;
+    padding:5px;
+}
+
+#contact-form input, #contact-form textarea {
+    display:block;
+    flex:5;
+    padding:5px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    background-color:cadetblue;
+    color:white;
+}
+
+#contact-form textarea {
+    min-height:200px;
+}
+
+#contact-form button {
+    display:block;
+    position:absolute;
+    right:0;
+    background-color: cadetblue;
+    color:white;
+    padding:5px;
+}
+
 
 /* Media Queries */
 /* Portrait Tablet */

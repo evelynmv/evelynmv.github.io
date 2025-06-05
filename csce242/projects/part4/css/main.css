@@ -38,6 +38,17 @@ footer{
         padding: 5px;
     }
 
+#photos div {
+    margin:auto;
+    max-width:90%;
+    text-align:center;
+}
+
+#photos img{
+    max-width:90%;
+}
+
+
 #cat{
     text-align: center;
 }
@@ -45,7 +56,6 @@ footer{
 footer p{
     text-align: center;
 }
-
 
 /* Typography */
 main h1{
