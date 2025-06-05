@@ -1,74 +1,56 @@
 [
-    {
-        "_id":1,
-        "image" : "images/dress1.jpeg",
-        "Dress ID" :"#3039",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":2,
-        "image" : "images/dress2.jpeg",
-        "Dress ID" :"#4051",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":3,
-        "image" : "images/dress3.jpeg",
-        "Dress ID" :"#4490",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":4,
-        "image" : "images/dress4.jpeg",
-        "Dress ID" :"#9038",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":5,
-        "image" : "images/dress5.jpeg",
-        "Dress ID" :"#3480",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":6,
-        "image" : "images/dress6.jpeg",
-        "Dress ID" :"#9283",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":7,
-        "image" : "images/dress7.jpeg",
-        "Dress ID" :"#7424",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":8,
-        "image" : "images/dress8.jpeg",
-        "Dress ID" :"#8293",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    },
-
-     {
-        "_id":9,
-        "image" : "images/dress9.jpeg",
-        "Dress ID" :"#7930",
-        "Discription" : "The dress is a deep emerald green ball gown with a voluminous, floor-length skirt that creates a dramatic and elegant presence. The bodice is structured and fitted, featuring a sweetheart neckline with off-the-shoulder sleeves, complemented by additional decorative straps that provide extra embellishment and support. The entire gown is heavily adorned with sparkling rhinestones, sequins, and intricate floral embroidery in gold and silver tones. These embellishments are particularly concentrated around the bodice and cascade down the skirt in vertical patterns, enhancing the overall sense of grandeur.",
-        "Price" : "$1,999.00"
-    }
-
+  {
+    "id": 5819,
+    "image": "Images/dress-images/dress1.jpg",
+    "price": 920,
+    "description": "This dress is a stunning emerald green quinceañera or ball gown designed by Rachel Allan. The bodice features an off-the-shoulder design with a sweetheart neckline, adorned with intricate gold embroidery. Delicate fringe beading cascades from the sleeves, adding a touch of vintage glamour. The skirt is voluminous and dramatic, crafted from layers of rich green fabric that have a slight shimmer. It includes structured peplum-like layers over the hips, which gives the gown a luxurious and dimensional appearance. Intricate gold appliqué flows down from the bodice into the top of the skirt, seamlessly blending and enhancing the gown's regal aesthetic."
+  },
+  {
+    "id": 8416,
+    "image": "images/dress-images/dress2.jpg",
+    "price": 760,
+    "description": "This dress is a stunning blush pink ball gown. The off-the-shoulder bodice is beautifully adorned with pink floral appliqués, sequin embroidery, and soft ruffles that frame the neckline and arms. Its fitted corset-style structure enhances the figure while maintaining a graceful silhouette. The voluminous tulle skirt flows out dramatically and is embellished with delicate floral motifs and sparkling sequin embroidery throughout. 3D floral appliqués and shimmering accents add texture and create a garden-like enchantment."
+  },
+  {
+    "id": 5168,
+    "image": "images/dress-images/dress3.jpg",
+    "price": 910,
+    "description": "This stunning royal blue ball gown exudes elegance and drama. The off-the-shoulder bodice is crafted from structured, gathered satin and features intricate floral embellishments with sparkling beadwork. The voluminous tulle skirt is adorned with shimmering sequins and clusters of delicate blue floral appliqués, creating the illusion of blossoms scattered across the gown."
+  },
+  {
+    "id": 5613,
+    "image": "images/dress-images/dress4.jpg",
+    "price": 740,
+    "description": "This emerald green quinceañera gown features a strapless sweetheart neckline with gathered satin, a structured corset, and lavish gold floral appliqués cascading onto the multi-layered skirt. The skirt combines satin and shimmering tulle, trimmed with ruffled tulle and glittering accents for a regal, vintage-inspired look."
+  },
+  {
+    "id": 7135,
+    "image": "images/dress-images/dress5.jpg",
+    "price": 980,
+    "description": "This quinceañera dress blends traditional Mexican heritage with modern flair. The corset bodice has a sweetheart neckline and white lace-up details, while puffed sleeves and vibrant red floral embroidery add romance and cultural pride. The skirt is satin with embroidered floral motifs and a sparkling tulle underskirt."
+  },
+  {
+    "id": 3183,
+    "image": "images/dress-images/dress6.jpg",
+    "price": 760,
+    "description": "This lavender quinceañera dress captures the essence of a spring garden. The strapless bodice features a sweetheart neckline, corset silhouette, and floral embroidery. Puffy sage green lace sleeves and a voluminous ball gown skirt adorned with ruffled lace and embroidered flowers add romance and elegance."
+  },
+  {
+    "id": 2683,
+    "image": "images/dress-images/dress7.jpg",
+    "price": 810,
+    "description": "This dress features a structured sweetheart bodice with crystal-beaded embroidery and off-the-shoulder floral tulle sleeves. The voluminous tulle skirt is adorned with sparkling 3D silver and blue floral embroidery, creating a cascading garden look with timeless elegance."
+  },
+  {
+    "id": 1783,
+    "image": "images/dress-images/dress8.jpg",
+    "price": 970,
+    "description": "This quinceañera gown showcases regal sophistication with an off-shoulder neckline, 3D floral appliqués, gold beading, and tiered lace skirt. A cascading layered design and metallic embroidery enhance its luxurious, princess-like charm."
+  },
+  {
+    "id": 8906,
+    "image": "images/dress-images/dress9.jpg",
+    "price": 750,
+    "description": "This pink quinceañera dress is a fairytale dream with off-the-shoulder puff sleeves, 3D floral appliqués, and butterflies. The sparkling ball gown skirt is layered with tulle and glittering embroidery, creating a whimsical and luminous look."
+  }
 ]

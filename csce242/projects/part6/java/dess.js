@@ -1,5 +1,5 @@
 const getDresses = async () => {
-  const url = "https://evelynmv.github.io/csce242/projects/part5/json/dress.json";
+  const url = "https://evelynmv.github.io/csce242/projects/part6/json/dress.json";
   try {
     const response = await fetch(url);
     console.log(response); // <-- helpful
