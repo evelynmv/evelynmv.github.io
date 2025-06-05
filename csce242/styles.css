@@ -95,19 +95,19 @@ nav a:hover {
     text-align: center;
 }
 
-#third ul{
+.node ul{
     list-style-type: none;
     padding: 0;
 }
-#third li{
+.node li{
     padding: 10px;
 }
-#third a{
+.node a{
     text-decoration: none;
     color: aliceblue;
 }
 
-#third a:hover{
+.node a:hover{
     color: #7D8CC4;
     background-color: #BEE7E8;
     border-radius: 5px;
