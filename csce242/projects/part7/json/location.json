@@ -1,0 +1,20 @@
+[
+  {
+    "id": 5513,
+    "image": "Images/venue-images/venue1.jpeg",
+    "price": "$4,100+",
+    "description": "The Venue, with its rich 19th-century architecture, offers a unique and elegant backdrop that beautifully combines timeless design with contemporary amenities. This historic space can accommodate up to 125 seated guests or 175 standing. As a premier full-service event location, it provides personalized service and exceptional catering. Finally, its prime downtown Columbia location gives guests easy access to local attractions, dining, and entertainment."
+  },
+  {
+    "id": 2641,
+    "image": "Images/venue-images/venue2.png",
+    "price": "$5,160+",
+    "description": "Twelve Oak Estate features a stunning Grand Manor House (circa 19th century) with covered verandas and classic architecture. Event spaces include the Cherry Blossom Lawn, Dolly-House Stables for cocktail hour, and a 5,000-sq-ft Airplane Hangar for receptions. Scenic grounds with rolling pastures and mature oaks accommodate up to 200 seated or 5,000 standing guests."
+  },
+  {
+    "id": 6483,
+    "image": "Images/venue-images/venuw3.png",
+    "price": "$5,160+",
+    "description": "701 Whaley offers multiple spaces: a 6,000-sq-ft Grand Hall with original columns, the 2,000-sq-ft Olympia Room with hardwood floors, a 2,600-sq-ft Granby Room with industrial vibes, and 3,700-sq-ft Market Space plus an 800-sq-ft covered porch. Rental (10 AM–midnight) includes tables, chairs, catering area, and bridal/green room; capacity up to 750 guests."
+  }
+]

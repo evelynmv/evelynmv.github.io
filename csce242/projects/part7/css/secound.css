@@ -1,0 +1,46 @@
+:root{
+    --lavender:#c8a2c8;
+    --silver:#c0c0c0;
+    --white: #ffffff;
+    --deep-plum:#5d3a66;
+}
+
+/* Structure */
+.content{
+    background-color: var(--lavender);
+    padding: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.section{
+    background-color: var(--deep-plum);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* Typography */
+
+/* small images */
+.section img{
+    max-width: 70%;
+    padding-top: 10px;
+}
+
+
+ @media screen and (min-width: 800px){
+    .section{
+        display: flex;
+    }
+
+    .show{
+        flex:1;
+    }
+
+    .info{
+        flex:3;
+    }
+
+
+ }

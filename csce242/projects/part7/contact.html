@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/us.css">
+    </head>
+    <body>
+        <header>
+            <div id="nav">
+                <div id="logo">
+                    <h1>QuinceWorld</h1>
+                </div>
+
+                <div>
+
+                    <div id="hamburger" class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <nav>
+                        <ul class="main-nav" id="main-nav">
+                            <li><a href="main.html">Home</a></li>
+                            <li><a href="court.html">Court</a></li>
+                            <li><a href="decor.html">Decorations</a></li>
+                            <li><a href="her.html">Quinceanera</a></li>
+                            <li><a href="location.html">Location</a></li>
+                            <li><a href="transportation.html">Transportation</a></li>
+                            <li><a href="us.html">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </header>
+
+        <main id="big-image">
+            <div class="slideshow-container">
+                <img class="slide active" src="images/big1.png" alt="Slide 1"> <!--Image from https://en.wikipedia.org/wiki/Quinceañera-->
+                <img class="slide" src="images/big2.png" alt="Slide 2"> <!--Image from  https://people.howstuffworks.com/culture-traditions/cultural-traditions/quinceanera.htm-->
+                <img class="slide" src="images/big3.png" alt="Slide 3"> <!--Image from https://grandmonarchvenues.com/quinceanera-and-sweet-16-event-planning/-->
+            </div>
+        </main>
+        
+         <div class="main-area">
+            <h1>Contact Us</h1>
+            <p>Thank you for exploring Quinceworld! We appreciate your interest and encourage you to reach out if you have any questions or if there's something specific you're searching for. Our team is dedicated to assisting you and strives to respond promptly to ensure you have the best experience possible. Don't hesitate to get in touch with us!</p>
+        </div>
+
+        <main id="form">
+            <div class="two-columns one">
+                    <h3>Have a Question?</h3>
+                    <form method="POST" id="contact-form">
+
+                        <input type="hidden" name="access_key" value="676e8169-ebb2-46ae-81d1-05c4b3ff7bc3">
+
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <textarea name="message" required></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                        <div id="result"></div>
+                    
+                    </form>
+                </div>
+           
+        </main>
+
+        <footer>
+            <div id="logo2">
+                <h1>QuinceWorld</h1>
+            </div>
+            <div id="contact">
+                <p><a href="us.html">About Us</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+        </footer>
+        
+
+         <script src="java/nav.js"></script>
+         <script src="java/contact.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+

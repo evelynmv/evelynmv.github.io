@@ -1,0 +1,77 @@
+:root{
+    --lavender:#c8a2c8;
+    --silver:#c0c0c0;
+    --white: #ffffff;
+    --deep-plum:#5d3a66;
+    --seethrough-lavender:#c8a2c8aa;
+}
+
+/* Structure */
+#cat{
+    background-color: var(--deep-plum);
+    text-align: center;
+    color: var(--deep-plum);
+    padding: 5px;
+}
+
+
+/* Categories */
+.img-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  width: 220px; 
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+/* Make image zoom slightly on hover */
+.img-wrapper:hover img {
+  transform: scale(1.05); 
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: var(--seethrough-lavender);
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.img-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* Desktop Layout */
+@media screen and (min-width: 600px) {
+    .table{
+        display:flex;
+        justify-content: center;
+    }
+
+    .table div{
+        margin: 15px;
+    }
+}
+

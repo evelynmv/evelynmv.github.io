@@ -1,0 +1,156 @@
+:root{
+    --lavender:#c8a2c8;
+    --silver:#c0c0c0;
+    --white: #ffffff;
+    --deep-plum:#5d3a66;
+}
+
+
+
+/* Base styles */
+body {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: var(--lavender);
+}
+
+#nav {
+  background-color: var(--silver);
+  color: var(--deep-plum);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo h1,
+footer h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: var(--deep-plum);
+}
+
+#cat h1{
+  color:var(--white)
+}
+
+/* Hamburger button */
+.hamburger {
+  cursor: pointer;
+  display: block;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color:var(--deep-plum);
+  margin: 4px 0;
+}
+
+/* Navigation menu */
+.main-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  background-color: var(--silver);
+}
+
+.main-nav li {
+  border-top: 1px solid var(--white);
+}
+
+.main-nav li a {
+  font-size: smaller;
+  display: block;
+  padding: 3px;
+  color: var(--deep-plum);
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  background-color: var(--lavender);
+}
+
+/* Toggle active class */
+.main-nav.active {
+  display: flex;
+}
+
+/* Big Image Slidesow */
+#big-image {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.slide.active {
+  display: block;
+  opacity: 1;
+  position: relative;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background: var(--silver);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+#logo2{
+    padding-top: 10px;
+}
+
+#contact{
+    position: absolute;
+    right: 40px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--deep-plum);
+}
+
+
+
+
+/* Desktop styles */
+@media screen and (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  .main-nav {
+    display: flex !important;
+    flex-direction: row;
+    background: none;
+  }
+
+  .main-nav li {
+    border: none;
+  }
+}

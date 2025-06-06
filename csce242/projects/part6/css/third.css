@@ -44,15 +44,15 @@
 #access,
 #dama,
 #venue,
-#church{
+#ent,
+#party{
      background-color: var(--lavender);
 }
 
 #flower,
 #beau,
 #tux,
-#ent,
-#party{
+#church{
     background-color: var(--deep-plum);
 }
 
