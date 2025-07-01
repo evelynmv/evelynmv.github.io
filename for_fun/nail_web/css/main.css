@@ -1,0 +1,50 @@
+:root{
+    --first-color: #FF499E;
+    --second-color: #D264B6;
+    --third-color:  #A480CF;
+    --fourth-color: #779BE7;
+    --fifth-color: #49B6FF;
+    --background-color: aliceblue;
+}
+body{
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--first-color);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: var(--second-color);
+}
+nav ul li a.active{
+    color: var(--second-color);
+}
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--second-color);
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
